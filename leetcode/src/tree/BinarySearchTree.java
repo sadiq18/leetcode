@@ -39,6 +39,6 @@ public class BinarySearchTree {
 			tree.insert(val);
 		}
 		System.out.println();
-		TreeTraversal.inorder(tree.root);
+		Tree.inorder(tree.root);
 	}
 }
